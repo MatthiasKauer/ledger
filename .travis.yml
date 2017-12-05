@@ -102,11 +102,5 @@ after_script:
   - python test/CheckTexinfo.py -l ledger -s .
   - python test/CheckManpage.py -l ledger -s .
 
-notifications:
-  email:
-    on_success: change
-    on_failure: change
-  irc:
-    channels: [ "chat.freenode.net#ledger" ]
-    on_success: change
-    on_failure: change
+addons:
+  artifacts: true
