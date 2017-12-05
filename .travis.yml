@@ -102,5 +102,4 @@ after_script:
   - python test/CheckTexinfo.py -l ledger -s .
   - python test/CheckManpage.py -l ledger -s .
 
-addons:
-  artifacts: true
+
